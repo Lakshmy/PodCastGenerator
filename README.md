@@ -19,3 +19,7 @@ The objective of this solution is to convert an existing Power BI report into an
 
 # Highlevel Solution Overview
 ![alt text](image.png)
+
+# Added podcast generator_using_DAX.ipynb to use DAX queries to generate podcast
+    - Semantic models used by DAX queries should be published to the same lakehouse as used by notebook
+    - DAX queries are defined in an array in the notebook
